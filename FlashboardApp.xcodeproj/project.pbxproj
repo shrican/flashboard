@@ -22,7 +22,7 @@
 		A1234567890123456789012B /* FlashboardAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashboardAppApp.swift; sourceTree = "<group>"; };
 		A1234567890123456789012D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1234567890123456789012F /* MessageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDisplayView.swift; sourceTree = "<group>"; };
-		A1234567890123456789013B /* SettingsView.swift */ = {isa = PBXBuildFile; fileRef = A1234567890123456789013C /* SettingsView.swift */; };
+		A1234567890123456789013B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A1234567890123456789013D /* MessageTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTemplate.swift; sourceTree = "<group>"; };
 		A1234567890123456789013F /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
 		A1234567890123456789014B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
