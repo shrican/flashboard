@@ -83,7 +83,7 @@ struct MessageDisplayView: View {
     // MARK: - Scrolling Effect
     private func startScrolling(textWidth: CGFloat, screenWidth: CGFloat) {
         let totalDistance = textWidth + screenWidth
-        let duration = totalDistance / (100 * template.scrollSpeed)
+        _ = totalDistance / (100 * template.scrollSpeed)
         
         scrollTimer = Timer.scheduledTimer(withTimeInterval: 0.016, repeats: true) { _ in
             withAnimation(.linear(duration: 0.016)) {
