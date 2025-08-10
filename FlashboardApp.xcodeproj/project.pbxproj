@@ -60,7 +60,7 @@
 				A1234567890123456789013F /* MessageManager.swift */,
 				A1234567890123456789014B /* Assets.xcassets */,
 				A1234567890123456789014E /* Info.plist */,
-				A1234567890123456789014C /* Preview Assets.xcassets */,
+				A1234567890123456789014D /* Preview Assets.xcassets */,
 			);
 			path = FlashboardApp;
 			sourceTree = "<group>";
