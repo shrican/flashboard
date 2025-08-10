@@ -2,7 +2,7 @@ import SwiftUI
 import Foundation
 
 struct MessageTemplate: Identifiable, Codable {
-    let id = UUID()
+    var id: UUID = UUID()
     var name: String
     var text: String
     var fontName: String
@@ -24,7 +24,7 @@ struct MessageTemplate: Identifiable, Codable {
         self.backgroundColor = backgroundColor
         self.displayMode = displayMode
         self.scrollSpeed = scrollSpeed
-        self.isBlinking = false
+        self.isBlinking = isBlinking
         self.blinkFrequency = blinkFrequency
         self.createdAt = Date()
     }

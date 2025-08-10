@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1234567890123456789012A /* FlashboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A1234567890123456789015A /* FlashboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1234567890123456789012B /* FlashboardAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashboardAppApp.swift; sourceTree = "<group>"; };
 		A1234567890123456789012D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1234567890123456789012F /* MessageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDisplayView.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		A1234567890123456789012J /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1234567890123456789012A /* FlashboardApp.app */,
+                A1234567890123456789015A /* FlashboardApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			);
 			name = FlashboardApp;
 			productName = FlashboardApp;
-			productReference = A1234567890123456789012A /* FlashboardApp.app */;
+            productReference = A1234567890123456789015A /* FlashboardApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -287,8 +287,17 @@
 				INFOPLIST_FILE = FlashboardApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = (
+                    UIInterfaceOrientationPortrait,
+                    UIInterfaceOrientationLandscapeLeft,
+                    UIInterfaceOrientationLandscapeRight,
+                );
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = (
+                    UIInterfaceOrientationPortrait,
+                    UIInterfaceOrientationPortraitUpsideDown,
+                    UIInterfaceOrientationLandscapeLeft,
+                    UIInterfaceOrientationLandscapeRight,
+                );
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,8 +324,17 @@
 				INFOPLIST_FILE = FlashboardApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = (
+                    UIInterfaceOrientationPortrait,
+                    UIInterfaceOrientationLandscapeLeft,
+                    UIInterfaceOrientationLandscapeRight,
+                );
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = (
+                    UIInterfaceOrientationPortrait,
+                    UIInterfaceOrientationPortraitUpsideDown,
+                    UIInterfaceOrientationLandscapeLeft,
+                    UIInterfaceOrientationLandscapeRight,
+                );
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
