@@ -15,7 +15,7 @@ struct MessageTemplate: Identifiable, Codable {
     var blinkFrequency: Double
     var createdAt: Date
     
-    init(name: String = "", text: String = "pick you up at 8", fontName: String = "Helvetica-Bold", fontSize: CGFloat = 72, textColor: Color = .black, backgroundColor: Color = .white, displayMode: DisplayMode = .static, scrollSpeed: Double = 1.0, isBlinking: Bool = false, blinkFrequency: Double = 1.0) {
+    init(name: String = "", text: String = "pick you up at 8", fontName: String = "Impact", fontSize: CGFloat = 80, textColor: Color = .black, backgroundColor: Color = .white, displayMode: DisplayMode = .static, scrollSpeed: Double = 1.0, isBlinking: Bool = false, blinkFrequency: Double = 1.0) {
         self.name = name
         self.text = text
         self.fontName = fontName

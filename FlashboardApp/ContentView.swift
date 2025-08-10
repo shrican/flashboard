@@ -34,20 +34,20 @@ struct ContentView: View {
                         .lineLimit(3...6)
                         .font(.title2)
                     
+                    Button("Quick Display") {
+                        showingDisplay = true
+                    }
+                    .buttonStyle(PrimaryButtonStyle())
+
                     Button("Customize & Display") {
                         showingSettings = true
                     }
-                    .buttonStyle(PrimaryButtonStyle())
+                    .buttonStyle(SecondaryButtonStyle())
                 }
                 .padding(.horizontal, 20)
                 
                 // Quick Actions
                 VStack(spacing: 12) {
-                    Button("Quick Display") {
-                        showingDisplay = true
-                    }
-                    .buttonStyle(SecondaryButtonStyle())
-                    
                     Button("Saved Templates") {
                         showingTemplates = true
                     }
